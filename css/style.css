@@ -1,0 +1,18 @@
+.hero {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.right {
+    list-style: none;
+}
