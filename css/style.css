@@ -85,4 +85,10 @@ a {
     flex: 1;
     align-self: stretch;
     background-color: gray;
+    overflow: hidden;
+}
+
+.image img {
+    max-width: 400px;
+    max-height: inherit;
 }
