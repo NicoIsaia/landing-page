@@ -204,3 +204,14 @@ a {
     padding-right: 22px;
     border-radius: 5px;
 }
+
+/* Footer */
+
+.footer-section {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
