@@ -71,8 +71,8 @@ a {
     border: none;
     font-weight: bold;
     padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
     border-radius: 5px;
     flex: none;
     margin-top: 8px;
@@ -128,6 +128,8 @@ a {
     text-align: center;
 }
 
+/* Quote section */
+
 .quote-section {
     background-color: #E5E7EB;
     display: flex;
@@ -151,4 +153,54 @@ a {
     font-weight: 900;
     font-size: 20px;
     padding-right: 50px;
+}
+
+/* Call to action section */
+
+.call-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action {
+    width: 800px;
+    margin: 50px;
+    border-radius: 7px;
+    background-color: #3882F6;
+    padding: 20px;
+    display: flex;
+}
+
+.call-text {
+    color: #FFFFFF;
+    padding-left: 70px;
+}
+
+.call-text .call-header {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.call-text .call-body {
+    margin-top: 3px;
+}
+
+.call-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.call-button button {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 5px;
 }
